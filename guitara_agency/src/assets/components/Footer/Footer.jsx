@@ -9,8 +9,10 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram, faTwitter, faLinkedin, faSnapchatGhost } from '@fortawesome/free-brands-svg-icons'; // Add Snapchat icon
+import { faTiktok } from '@fortawesome/free-brands-svg-icons';
 import { FaWhatsapp } from "react-icons/fa";
-// import Flag from 'react-world-flags';
 import { useEffect, useState } from 'react';
 import './Footer.css';
 import VisitorCounter from "../VisitorCounter/VisitorCounter";
@@ -89,54 +91,21 @@ export default function Footer() {
                   <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                     <FaFacebook size={28} color="#fff" className={GuitaraFooter.icons} />
                   </a>
-                  <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.snapchat.com/add/guitaraagency?share_id=psX9oaYW0V8&locale=en-US" target="_blank" rel="noopener noreferrer">
                     <FaInstagram size={28} color="#fff" className={GuitaraFooter.icons} />
                   </a>
-                  <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                  {/* <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
                     <FaTwitter size={28} color="#fff" className={GuitaraFooter.icons} />
-                  </a>
+                  </a> */}
                   <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin size={28} color="#fff" className={GuitaraFooter.icons} />
                   </a>
+                  <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tiktok.com/%40guitaraagency/video/7433971201199852818&ved=2ahUKEwif57qIro6MAxXSTqQEHbrOLXQQtwJ6BAgwEAE&usg=AOvVaw3T013jktmrMxHR5GRtDMjA" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faTiktok} size="2x" color="#fff" className={GuitaraFooter.icons} />
+                  </a>
                 </div>
               </div>
-<VisitorCounter/>
-              {/* <div className={GuitaraFooter.counter}>
-                <div className={GuitaraFooter.countryStats}>
-                  <span>Number of visitors: {visitorCount}</span>
-                  <br />
-                </div>
-                <div className={GuitaraFooter.countryStats}>
-                  <div>
-                    <Flag code="EG" style={{ width: "20px", height: "auto", marginRight: "7px" }} />
-                    <span>Egypt: {counterEgypt}</span>
-                  </div>
-                  <div>
-                    <Flag code="SA" style={{ width: "20px", height: "auto", marginRight: "7px" }} />
-                    <span>Saudi Arabia: {counterSaudi}</span>
-                  </div>
-                  <div>
-                    <Flag code="AE" style={{ width: "20px", height: "auto", marginRight: "7px" }} />
-                    <span>UAE: 0</span>
-                  </div>
-                  <div>
-                    <Flag code="QA" style={{ width: "20px", height: "auto", marginRight: "7px" }} />
-                    <span>Qatar: 0</span>
-                  </div>
-                  <div>
-                    <Flag code="BH" style={{ width: "20px", height: "auto", marginRight: "7px" }} />
-                    <span>Bahrain: 0</span>
-                  </div>
-                  <div>
-                    <Flag code="SY" style={{ width: "20px", height: "auto", marginRight: "7px" }} />
-                    <span>Syria: 0</span>
-                  </div>
-                  <div>
-                    <Flag code="IQ" style={{ width: "20px", height: "auto", marginRight: "7px" }} />
-                    <span>Iraq: 0</span>
-                  </div>
-                </div>
-              </div> */}
+              <VisitorCounter />
             </div>
           </div>
 
