@@ -35,12 +35,13 @@ export default function Home() {
     }
   }, [sliderImages]);
 
-  useEffect(() => {
-    // Split the "LiveStreaming Services" text into characters
-    const myText = new SplitType('#my-text', {
-      types: 'words, chars',
-      tagName: 'span',
-    });
+  // useEffect(() => {
+  //   // Split the "LiveStreaming Services" text into characters
+  //   const myText = new SplitType('#my-text', {
+  //     types: 'words, chars',
+  //     tagName: 'span',
+  //   });
+
 
     // Function to handle the animation when the text comes into view
     const handleScrollAnimation = (entries, observer) => {
@@ -65,20 +66,23 @@ export default function Home() {
       });
     };
 
-    // Create the Intersection Observer for the LiveStreaming Services text
-    const observer = new IntersectionObserver(handleScrollAnimation, {
-      threshold: 0.5, // The element must be at least 50% in view to trigger the animation
-    });
+
+  //   // Create the Intersection Observer for the LiveStreaming Services text
+  //   const observer = new IntersectionObserver(handleScrollAnimation, {
+  //     threshold: 0.5, // The element must be at least 50% in view to trigger the animation
+  //   });
+
 
     // Start observing the LiveStreaming Services element
     const target = document.querySelector('#my-text');
     if (target) observer.observe(target);
 
-    // Cleanup the observer when the component is unmounted
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
+
+  //   // Cleanup the observer when the component is unmounted
+  //   return () => {
+  //     observer.disconnect();
+  //   };
+  // }, []);
 
   return (
     <>
@@ -107,12 +111,11 @@ export default function Home() {
           )}
         </div>
 
-        <div className={GuitaraHome.App}>
-          <div className={GuitaraHome.guitaraServices}>
-            <div className={GuitaraHome.ServicesText}>
-              <h1 id="my-text">LiveStreaming Services</h1>
-            </div>
-            <Hexagon />
+
+      <div className={GuitaraHome.App}>
+        <div className={GuitaraHome.guitaraServices}>
+          <div className={GuitaraHome.ServicesText}>
+            {/* <h1 id="my-text">LiveStreaming Services</h1> */}
           </div>
         </div>
       </div>
