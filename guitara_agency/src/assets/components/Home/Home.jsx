@@ -25,16 +25,16 @@ export default function Home() {
     fetchSliderImages();
   }, []);
 
-  // useEffect(() => {
-  //   if (sliderImages.length > 0) {
-  //     // Change the image every 3 seconds
-  //     const interval = setInterval(() => {
-  //       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % sliderImages.length);
-  //     }, 3000); // Change the image every 3 seconds
+  useEffect(() => {
+    if (sliderImages.length > 0) {
+      // Change the image every 3 seconds
+      const interval = setInterval(() => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % sliderImages.length);
+      }, 3000); // Change the image every 3 seconds
 
-  //     return () => clearInterval(interval); // Cleanup interval on unmount
-  //   }
-  // }, [sliderImages]);
+      return () => clearInterval(interval); // Cleanup interval on unmount
+    }
+  }, [sliderImages]);
 
   // useEffect(() => {
   //   // Split the "LiveStreaming Services" text into characters
