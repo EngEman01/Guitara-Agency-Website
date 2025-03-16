@@ -128,14 +128,22 @@
     .GuitaraOpen{
         height: 40vh;
     }
+
+    .App{
+        height: 40vh;
+    }
 }
 
 @media (max-width: 1000px) {
     .guitaraImage {
-        height: 550px;
+        height: 300px;
     }
 
     .GuitaraOpen{
+        height: 40vh;
+    }
+
+    .App{
         height: 40vh;
     }
 }

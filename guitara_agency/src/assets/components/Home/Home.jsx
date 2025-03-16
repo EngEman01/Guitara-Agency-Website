@@ -109,7 +109,7 @@ export default function Home() {
           )}
         </div>
 
-        {/* <Cards /> */}
+       
 
         <div className={GuitaraHome.App}>
           <div className={GuitaraHome.guitaraServices}>
@@ -119,6 +119,8 @@ export default function Home() {
             <Hexagon />
           </div>
         </div>
+
+        <Cards />
       </div>
     </>
   );
