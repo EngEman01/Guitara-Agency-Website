@@ -1,0 +1,183 @@
+.guitaraNavbar {
+    width: 100%;
+    height: 85px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(to right, #781d7d, #20233d);
+    background: linear-gradient(to right, #271a28,#781d7d, #2d272d);
+    background: linear-gradient(to right, #271a28,#BB2c7e, #2d272d);
+    box-shadow: 0px 10px 30px #e7b9ea;
+    box-shadow: 0px 10px 30px #bb2c7dc5;
+    position: relative;
+    z-index: 100;
+    transition: background 0.25s ease-in;
+}
+
+.guitaraNavbar:hover {
+    background: linear-gradient(to left, #781d7d, #20233d);
+    background: linear-gradient(to left, #271a28,#BB2c7e, #2d272d);
+
+}
+
+.guitaraBackground {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url('./images/star2.gif');
+    background-size: cover;
+    padding: 0 20px;
+}
+
+.guitaraLogo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoImage {
+    width: 80px;
+    animation: float 3s ease-in-out infinite, zoomIn 1.5s ease-in-out infinite alternate;
+    transition: transform 0.6s ease-in-out;
+}
+
+.logoImage:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.guitaraLogo {
+    position: relative;
+}
+
+.guitaraLogo h2 {
+    font-size: 2rem;
+    color: #181a24;
+    -webkit-text-stroke: 1px #fff;
+    /* text-transform: uppercase; */
+    position: relative;
+    animation: textShadowAnimation 3s ease-in-out infinite, float 2s ease-in-out infinite alternate;
+}
+
+@keyframes textShadowAnimation {
+    0% {
+        text-shadow: 0px 0px 5px #a137a6;
+        text-shadow: 0px 0px 5px #BB2c7e;
+    }
+    50% {
+        text-shadow: 0px 0px 15px #a137a6, 0px 0px 30px #781d7d;
+        text-shadow: 0px 0px 15px #BB2c7e, 0px 0px 30px #781d7d;
+    }
+    100% {
+        text-shadow: 0px 0px 5px #a137a6;
+        text-shadow: 0px 0px 5px #BB2c7e;
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+ .guitaraLogo h2::before {
+    content: attr(data-text);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    color: #a137a6;
+    color: #BB2c7e;
+    text-shadow: 8px 0 12px #000;
+    -webkit-text-stroke: 0.5px #fff;
+    overflow: hidden;
+    animation: track 4s linear infinite;
+}
+
+@keyframes track {
+    0%, 10% {
+        width: 0;
+    }
+    70%, 90%, 100% {
+        width: 100%;
+    }
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    
+    .guitaraLogo h2 {
+        color: #a137a6;
+        -webkit-text-stroke: 0.3px #fff;
+        color: #BB2c7e;
+        font-weight: 800;
+    }
+    
+    .guitaraLogo h2::before {
+        width: 0%; 
+        animation: none; 
+    }
+}
+
+@media (max-width: 480px) {
+    .guitaraLogo {
+        padding: 15px 5px;
+        /* flex-direction: column; */
+        gap: 10px;
+    }
+
+    .guitaraLogo h2{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .logoImage {
+        width: 60px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .guitaraNavbar{
+        display: flex;
+    }
+    .guitaraLogo h2 {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,136 @@
+.homeStyle {
+    width: 100%;
+    background-size: cover;
+}
+
+/******************* the section of Home  ********************/
+
+.GuitaraOpen {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.openText {
+    margin: 30px 20px;
+    text-align: center;
+    color: #32375c;
+}
+
+.openText h2 {
+    margin-bottom: 8px;
+}
+
+.ServicesText{
+    display: inline-block;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid transparent;
+    /* animation: typing 5s steps(40) 1s forwards, blink 1.75s step-end infinite; */
+}
+
+.ServicesText h1{
+    margin: 15px 0px ;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Styles for the Image Slider */
+.guitaraImage {
+    width: 100%;
+    height: 620px;
+    position: relative;
+    overflow: hidden;
+}
+
+.homeImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+}
+
+.App {
+    width: 100%;
+    /* background: linear-gradient(to right, #ce75dabb, #f3dbf3be), url('./images/livestreaming1.jpg') no-repeat; */
+    background: linear-gradient(to right, #d68ddf2c, #f3dbf32d), url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDdwN2poN3Rqbm5mbGhmYW1udnVwcWZqMDNicHZyMTh0c3oxaW5lNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26xBwdNu2t2asNaww/giphy.gif') no-repeat;
+    background: linear-gradient(to right, #d68ddf2c, #f3dbf32d), url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjh5dm1oamltamlnMWhtenVhMGs0dGVyaG13aGU2aTB0NGZzMmRtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1dJWnCZBCE7gcFwLvk/giphy.gif') no-repeat;
+    background-size: cover;
+}
+.sliderDots {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .activeDot {
+    background-color: #962a9b; 
+  }
+
+
+/* Optional: Add more CSS styles to ensure responsiveness */
+@media (max-width: 768px) {
+    .guitaraImage {
+        height: 350px;
+    }
+    .ServicesText{
+        font-size: 12px;
+    }
+
+    .GuitaraOpen{
+        height: 40vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .guitaraImage {
+        height: 450px;
+    }
+
+    .GuitaraOpen{
+        height: 40vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .guitaraImage {
+        height: 550px;
+    }
+
+    .GuitaraOpen{
+        height: 40vh;
+    }
+}

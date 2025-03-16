@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+#root {
+  max-width: 100svw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  margin: 0 ;
+  padding: 0;
+  background: #f3e4f5;
+  /* background: linear-gradient(to right, #f3e4f5ab, #ffffff9d), url('./images/all-bg.jpg') no-repeat;
+  background: url('./images/home-bg.jpg') no-repeat;
+  background-size: cover; */
+}
+
+::selection{
+  background-color: #962a9b;
+  background-color: #BB2c7e;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}

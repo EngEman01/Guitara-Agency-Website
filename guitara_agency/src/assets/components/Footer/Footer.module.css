@@ -1,0 +1,151 @@
+.guitaraFooter {
+    width: 100%;
+    overflow: hidden;
+    /* background: linear-gradient(to right, #781d7d, #20233d); */
+    color: #fff;
+}
+
+.footerStyle {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: url('./images/star2.gif');
+    background-size: cover;
+    gap: 20px;
+}
+
+.footerContactUs{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.footerContactUs ul li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.footerContactUs h1{
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.footerContactUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socialMedia{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialMediaIcons{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contentSocialMediaIcons{
+    display: flex;
+    gap: 10px;
+}
+
+.countryStats{
+    /* color: #20233d; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.countryStatsSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.copyRight{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* .copyRight span{
+    width: 40%;
+    height: 1px;
+    margin: 3px 0px;
+    background-color: #fff;
+} */
+
+
+.copyRight span {
+    width: 0;
+    height: 2px;
+    margin: 3px 0;
+    background-color: #fff;
+    display: inline-block; /* Ensures the span behaves like a block for width */
+    animation: grow 2s ease forwards infinite; /* Apply the animation */
+}
+
+@keyframes grow {
+    0% {
+        width: 0;
+    }
+    25% {
+        width: 30%;
+    }
+    50% {
+        width: 0%;
+    }
+    75% {
+        width: 40%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+.copyRight a{
+    /* margin-right: 10px; */
+    cursor: pointer;
+}
+.icons{
+    transition: 0.5s ease-in-out;
+}
+.icons:hover{
+ transform: translateY(-7px);
+}
+
+@media (max-width: 480px) {
+    .footerStyle {
+        flex-direction: column;
+    }
+}

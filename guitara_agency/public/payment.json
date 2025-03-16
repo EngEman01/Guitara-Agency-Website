@@ -1,0 +1,28 @@
+{
+    "usa": {
+        "country_name": "United States",
+        "payment_methods": [
+            {
+                "name": "PayPal",
+                "image": "./payment images/paypal.jpg"
+            },
+            {
+                "name": "Visa",
+                "image": "./payment images/visa.jpg"
+            }
+        ]
+    },
+    "egypt": {
+        "country_name": "Egypt",
+        "payment_methods": [
+            {
+                "name": "Vodafone Cash",
+                "image": "./payment images/Vodafone Cash.jpg"
+            },
+            {
+                "name": "Fawry",
+                "image": "./payment images/Fawry.png"
+            }
+        ]
+    }
+}
