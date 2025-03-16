@@ -39,10 +39,6 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
-<<<<<<< HEAD
     "vite": "^6.2.2"
-=======
-    "vite": "^6.2.1"
->>>>>>> b9d61de048c3ef90104d318ce8b1f3c356d833e9
   }
 }
