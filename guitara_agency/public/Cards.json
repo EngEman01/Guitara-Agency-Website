@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "photo": "https://lol.com/images/photo1.jpg",
+        "name": "Card 1",
+        "description": "This is the description for Card 1."
+    },
+    {
+        "id": 2,
+        "photo": "https://lol.com/images/photo2.jpg",
+        "name": "Card 2",
+        "description": "This is the description for Card 2."
+    },
+    {
+        "id": 3,
+        "photo": "https://lol.com/images/photo3.jpg",
+        "name": "Card 3",
+        "description": "This is the description for Card 3."
+    },
+    {
+        "id": 4,
+        "photo": "https://lol.com/images/photo4.jpg",
+        "name": "Card 4",
+        "description": "This is the description for Card 4."
+    },
+    {
+        "id": 5,
+        "photo": "https://lol.com/images/photo4.jpg",
+        "name": "Card 5",
+        "description": "This is the description for Card 5."
+    },
+    {
+        "id": 6,
+        "photo": "https://lol.com/images/photo4.jpg",
+        "name": "Card 6",
+        "description": "This is the description for Card 6."
+    },
+    {
+        "id": 7,
+        "photo": "https://lol.com/images/photo4.jpg",
+        "name": "Card 7",
+        "description": "This is the description for Card 7."
+    }
+]
