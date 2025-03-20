@@ -10,10 +10,7 @@ import Mico from './assets/components/Shipping/mico';
 import DistributorsBigo from './assets/components/Distributors/DistributorsBigo';
 import DistributorsMico from './assets/components/Distributors/DistributorsMico';
 import DistributorsTiktok from './assets/components/Distributors/DistributorsTiktok';
-import VisitorCounter from './assets/components/VisitorCounter/VisitorCounter';
 import Bigo from './assets/components/Shipping/Bigo';
-import Cards from './assets/components/Cards/Cards';
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,10 +19,6 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <Home />,
-      },
-      {
-        path: "/card",
-        element: <Cards />,
       },
       {
         path: "/tiktok",

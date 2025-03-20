@@ -48,7 +48,7 @@ export default function DistributorsTiktok() {
             </div>
 
             <div className={DistributorsStyle.distributorsContent}>
-                <h1 id="my-text">الشروط</h1>
+                {/* <h1 id="my-text">الشروط</h1> */}
                 <ol type="1">
                     <li>المشاهدات بدون مقابل</li>
                     <li>ترندات بدون حدود لحد نفاذ نقاط الوكاله</li>

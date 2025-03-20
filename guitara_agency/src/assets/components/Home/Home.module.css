@@ -77,14 +77,16 @@
     width: 100%;
     height: 70vh;
     background: linear-gradient(to right, #d68ddf2c, #f3dbf32d), url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDdwN2poN3Rqbm5mbGhmYW1udnVwcWZqMDNicHZyMTh0c3oxaW5lNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26xBwdNu2t2asNaww/giphy.gif') no-repeat;
-    background: linear-gradient(to right, #d68ddf2c, #f3dbf32d), url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjh5dm1oamltamlnMWhtenVhMGs0dGVyaG13aGU2aTB0NGZzMmRtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1dJWnCZBCE7gcFwLvk/giphy.gif') no-repeat;
     background: linear-gradient(to right, #ce75dabb, #f3dbf3be), url('./images/livestreaming1.jpg') no-repeat;
+    background: linear-gradient(to right, #d68ddf2c, #f3dbf32d), url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjh5dm1oamltamlnMWhtenVhMGs0dGVyaG13aGU2aTB0NGZzMmRtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1dJWnCZBCE7gcFwLvk/giphy.gif') no-repeat;
+    background: linear-gradient(to right, #ce75da85, #f3dbf377), url('./images/Space2.jpg') no-repeat;
+    background: linear-gradient(to right, #ce75da85, #f3dbf377), url('./images/livestreaming.jpg') no-repeat;
     background-size: cover;
 }
 .sliderDots {
     display: flex;
     justify-content: center;
-    margin-top: -20px;
+    margin-top: -30px;
   }
   
   .dot {
@@ -117,6 +119,8 @@
 
     .App{
         height: auto;
+        background: linear-gradient(to right, #ce75da85, #f3dbf377), url('./images/livestreamingV2.jpg') no-repeat;
+        background-size: cover;
     }
 }
 
@@ -131,6 +135,8 @@
 
     .App{
         height: 40vh;
+        background: linear-gradient(to right, #ce75da85, #f3dbf377), url('./images/livestreaming.jpg') no-repeat;
+        background-size: cover;
     }
 }
 
@@ -145,5 +151,7 @@
 
     .App{
         height: 40vh;
+        background: linear-gradient(to right, #ce75da85, #f3dbf377), url('./images/livestreamingV2.jpg') no-repeat;
+        background-size: cover;
     }
 }

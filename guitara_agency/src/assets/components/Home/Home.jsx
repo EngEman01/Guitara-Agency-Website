@@ -98,9 +98,8 @@ export default function Home() {
                 {sliderImages.map((_, index) => (
                   <span
                     key={index}
-                    className={`${GuitaraHome.dot} ${
-                      currentImageIndex === index ? GuitaraHome.activeDot : ''
-                    }`}
+                    className={`${GuitaraHome.dot} ${currentImageIndex === index ? GuitaraHome.activeDot : ''
+                      }`}
                     onClick={() => setCurrentImageIndex(index)}
                   ></span>
                 ))}
@@ -108,9 +107,7 @@ export default function Home() {
             </>
           )}
         </div>
-
-       
-
+        <Cards />
         <div className={GuitaraHome.App}>
           <div className={GuitaraHome.guitaraServices}>
             <div className={GuitaraHome.ServicesText}>
@@ -120,7 +117,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <Cards /> */}
       </div>
     </>
   );

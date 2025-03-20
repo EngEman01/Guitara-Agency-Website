@@ -1,44 +1,39 @@
 [
-    {
-        "id": 1,
-        "photo": "https://lol.com/images/photo1.jpg",
-        "name": "Card 1",
-        "description": "This is the description for Card 1."
-    },
-    {
-        "id": 2,
-        "photo": "https://lol.com/images/photo2.jpg",
-        "name": "Card 2",
-        "description": "This is the description for Card 2."
-    },
-    {
-        "id": 3,
-        "photo": "https://lol.com/images/photo3.jpg",
-        "name": "Card 3",
-        "description": "This is the description for Card 3."
-    },
-    {
-        "id": 4,
-        "photo": "https://lol.com/images/photo4.jpg",
-        "name": "Card 4",
-        "description": "This is the description for Card 4."
-    },
-    {
-        "id": 5,
-        "photo": "https://lol.com/images/photo4.jpg",
-        "name": "Card 5",
-        "description": "This is the description for Card 5."
-    },
-    {
-        "id": 6,
-        "photo": "https://lol.com/images/photo4.jpg",
-        "name": "Card 6",
-        "description": "This is the description for Card 6."
-    },
-    {
-        "id": 7,
-        "photo": "https://lol.com/images/photo4.jpg",
-        "name": "Card 7",
-        "description": "This is the description for Card 7."
-    }
+  {
+    "id": 1223314,
+    "name": "BIG MAGIC",
+    "author": "Elizabeth442",
+    "photo": "https://external-preview.redd.it/nyMTyImNrqSgiBLcKVSIPuJbgawXlm1_HxalDb5m2ZQ.jpg?auto=webp&s=ea037ab04669951d28c5016367def84d56a0bdb9",
+    "icon": "./images/4768645_middle_icon-removebg-preview.png",
+    "description": "Readers of all ages have drawn inspiration from Elizabeth Gilbert's books.",
+    "voters": 1987
+  },
+  {
+    "id": 2114456,
+    "name": "Ten Thousand Skies Above You",
+    "author": "Claudia23",
+    "photo": "https://i2.pickpik.com/photos/711/14/431/smile-profile-face-male-preview.jpg",
+    "icon": "./images/bigo_klaket2-removebg-preview.png",
+    "description": "The hunt for each splinter of Paul's soul sends Marguerite racing through a war-torn San Francisco.",
+    "voters": 2345
+  },
+
+  {
+    "id": 311123334,
+    "name": "The Great Gatsby",
+    "author": "Fitzgerald332",
+    "photo": "https://th.bing.com/th/id/R.acadb27f407710043a28ac33c7689562?rik=hX0mZJHKXy8luQ&riu=http%3a%2f%2ftomaszkrynicki.pl%2fimg%2f125492340_115124887073801_7852187765604514029_o.jpg&ehk=QBrkSdMBDmHjP9g%2fBiDjmDKQlYiVbO5xazLUpfs3ewU%3d&risl=&pid=ImgRaw&r=0",
+    "icon": "./images/mico.png",
+    "description": "The Great Gatsby stands as the supreme achievement of F. Scott Fitzgerald's career.",
+    "voters": 4120
+  },
+  {
+    "id": 42133414,
+    "name": "After You",
+    "author": "Jojo34",
+    "photo": "https://profile-images.xing.com/images/714e151d1e3eabe332baca8fe4819667-2/lucas-scheller.1024x1024.jpg",
+    "icon": "./images/4768645_middle_icon-removebg-preview.png",
+    "description": "Louisa Clark is no longer just an ordinary girl living an ordinary life.",
+    "voters": 2576
+  }
 ]

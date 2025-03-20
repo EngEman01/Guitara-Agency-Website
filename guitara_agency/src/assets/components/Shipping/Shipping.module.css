@@ -67,6 +67,11 @@
     animation: wiggle 1s infinite;
 }
 
+.ShippingBtn a{
+    color: #fff;
+    text-decoration: none;
+}
+
 .ShippingOption h1 {
     color: #3a204f;
 }
